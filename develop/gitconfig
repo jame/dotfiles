@@ -1,0 +1,28 @@
+[user]
+    email=jame@rocasa.us
+    name=Robert James Clay
+
+[alias]
+    br=branch
+    co=checkout
+    ci=commit
+    di=diff
+    st=status
+    sta=stash
+    up=pull origin
+
+[core]
+    excludesfile=~/.gitignore
+
+[giggle]
+    main-window-maximized=false
+    main-window-geometry=1041x486+421+186
+    history-view-vpane-position=330
+    file-view-vpane-position=410
+    main-window-view=HistoryView
+
+[push]
+    default=matching
+
+[include]
+    path=~/.gitconfig.rjc
