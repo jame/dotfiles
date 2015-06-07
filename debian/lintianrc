@@ -1,0 +1,20 @@
+# ~/.lintianrc
+#
+# Set the default profile (--profile)
+LINTIAN_PROFILE = pkg-perl
+
+# Enable info tags by default (--display info)
+display-info = yes
+
+# Enable pedantic tags by default (--pedantic)
+pedantic = yes
+
+# Enable experimental tags by default (--display-experimental)
+display-experimental = yes
+
+# Show overridden tags (--show-overrides)
+show-overrides = yes
+
+# Enable colored output for terminal output (--color)
+color = auto
+
