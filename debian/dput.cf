@@ -1,0 +1,46 @@
+[bpo]
+fqdn = backports-master.debian.org
+incoming = /pub/UploadQueue/
+method = ftp
+login = anonymous
+allow_dcut = 1
+
+[mentors]
+fqdn = mentors.debian.net
+method = ftp
+login = anonymous
+incoming = .
+allow_unsigned_uploads = 0
+run_dinstall = 0
+progress_indicator = 2
+passive_ftp = 1
+
+[rjc-ppa]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~rjclay/ppa/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
+
+[ftnapps-ppa]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~ftnapps/main/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
+
+[lsmb-ppa]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~ledgersmb/main/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
+
+[xwlnx]
+fqdn = xwlnx.rocasa
+login = mini-buildd
+incoming = /home/mini-buildd/rep/mini-dinstall/incoming/
+method = scp
+ssh_config_options = Port=22
+  StrictHostKeyChecking=no
+allow_unsigned_uploads = 1
