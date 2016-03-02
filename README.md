@@ -11,13 +11,15 @@ dotfiles for Robert James Clay
 * $ ln -s  .dotfiles/ftn/mmailrc .mmailrc
 
 
-Organized into topics
----------------------
+Topics
+------
 
-* Debian
-* Develop
-* System
-* FTN
+The dotfiles are organized by the following topics:
+
+* debian/    Debian related
+* develop/   Developing related
+* system/    System related
+* ftn        Fidonet/FTN related
 
 
 
