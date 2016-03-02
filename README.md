@@ -1,8 +1,8 @@
 dotfiles for Robert James Clay
 ==============================
 
-    To activate the dotfile, set a symbolic link to the copy in the repository
-like with the following examples (where the repository is at ~/.dotfiles):
+  To activate the dotfile, set a symbolic link to the copy in the repository
+  like with the following examples (where the repository is at ~/.dotfiles):
 
 $ cd ~/
 $ ln -s  .dotfiles/debian/devscripts .devscripts
