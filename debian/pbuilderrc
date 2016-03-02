@@ -9,9 +9,9 @@ BUILDPLACE=/var/cache/pbuilder/build
 # When doing debian builds
 #MIRRORSITE=http://cdn.debian.net/debian
 #
-#MIRRORSITE=http://192.168.4.3:9999/debian
+#MIRRORSITE=http://192.168.0.5:9999/debian
 #OTHERMIRROR="deb http://www.home.com/updates/ ./"
-#OTHERMIRROR="deb http://192.168.4.3:9999/debftn squeeze main contrib non-free"
+#OTHERMIRROR="deb http://192.168.0.5:9999/debftn squeeze main contrib non-free"
 #export http_proxy=http://your-proxy:8080/
 USEPROC=yes
 USEDEVPTS=yes
