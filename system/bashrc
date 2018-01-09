@@ -114,5 +114,4 @@ PS1='$ '
 export DEBFULLNAME="Robert James Clay"
 export DEBEMAIL="jame@rocasa.us"
 export GPGKEY="43B7EA9A"
-
-
+export GPG_TTY=$(tty)
